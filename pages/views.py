@@ -5,5 +5,13 @@ class HomePageView(TemplateView):
     template_name = 'home.html'
 
 
-class AboutPageView(TemplateView):
-    template_name = 'about.html'
+class MathPageView(TemplateView):
+    template_name = 'math.html'
+
+
+class SciencePageView(TemplateView):
+    template_name = 'science.html'
+
+
+class CodingPageView(TemplateView):
+    template_name = 'coding.html'
